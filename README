@@ -1,0 +1,132 @@
+<pre>💳 Credit Card Fraud Detection using Machine Learning
+
+📌 Project Overview
+
+Credit card fraud has become one of the biggest challenges in the financial industry. Fraudulent transactions can result in significant financial losses for both customers and financial institutions. This project aims to build a Machine Learning model capable of identifying fraudulent credit card transactions with high accuracy while minimizing false positives.
+
+The project involves data preprocessing, handling class imbalance, training multiple classification models, and evaluating their performance using industry-standard metrics.
+
+
+🎯 Objectives
+- Detect fraudulent credit card transactions.
+- Perform data preprocessing and normalization.
+- Handle highly imbalanced data.
+- Train Machine Learning classification models.
+- Compare model performance.
+- Evaluate using Precision, Recall, F1-Score, and ROC-AUC.
+
+
+📊 Dataset
+The dataset contains anonymized credit card transaction records.
+
+Features include:
+- Time
+- Amount
+- V1–V28 (PCA transformed features)
+- Class
+
+Target Variable:
+- **0 → Genuine Transaction**
+- **1 → Fraudulent Transaction**
+
+🛠 Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn (SMOTE)
+- Jupyter Notebook
+
+
+⚙️ Project Workflow
+
+1. Data Collection
+- Load the dataset
+- Explore data structure
+
+2. Data Preprocessing
+- Check missing values
+- Normalize transaction amount
+- Scale numerical features
+
+3. Exploratory Data Analysis
+- Transaction distribution
+- Fraud vs Genuine comparison
+- Correlation Heatmap
+
+4. Handle Class Imbalance
+Techniques used:
+- Random Oversampling
+- Random Undersampling
+- SMOTE
+
+5. Model Training
+Models implemented:
+- Logistic Regression
+- Random Forest Classifier
+
+6. Model Evaluation
+Evaluation Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- ROC-AUC Score
+- Confusion Matrix
+
+📈 Results
+The trained models successfully classify fraudulent transactions with high recall while maintaining strong precision. Since fraud detection datasets are highly imbalanced, Recall and F1-Score are considered more important than overall Accuracy.
+
+📷 Output
+
+- Confusion Matrix
+- ROC Curve
+- Precision-Recall Curve
+- Feature Importance (Random Forest)
+
+🚀 Future Improvements
+- XGBoost Classifier
+- LightGBM
+- Deep Learning Models
+- Autoencoders for Anomaly Detection
+- Hyperparameter Tuning
+- Real-time Fraud Detection API
+
+📚 Skills Demonstrated
+- Data Cleaning
+- Feature Engineering
+- Data Visualization
+- Classification Algorithms
+- Handling Imbalanced Data
+- Model Evaluation
+- Machine Learning Pipeline
+
+ 📦 Installation
+```bash
+git clone https://github.com/yourusername/Credit-Card-Fraud-Detection.git
+
+cd Credit-Card-Fraud-Detection
+
+pip install -r requirements.txt
+```
+
+▶️ Run Project
+```bash
+jupyter notebook
+```
+
+or
+
+```bash
+python main.py
+```
+
+👨‍💻 Author
+Sangeeta Sharma
+B.Tech (Artificial Intelligence & Data Science)
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+
+## ⭐ If you found this project helpful, don't forget to Star the repository!</pre>
