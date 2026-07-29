@@ -16,8 +16,13 @@ The project involves data preprocessing, handling class imbalance, training mult
 - Evaluate using Precision, Recall, F1-Score, and ROC-AUC.
 
 
-📊 Dataset
-The dataset contains anonymized credit card transaction records.
+Dataset
+The dataset is not included in this repository because it exceeds GitHub's recommended file size.
+Download it from Kaggle and place `creditcard.csv` inside the `dataset` folder.
+
+After downloading:
+dataset/
+    creditcard.csv
 
 Features include:
 - Time
